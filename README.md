@@ -7,18 +7,15 @@
 
 <!-- ([![ko-fi](https://img.shields.io/badge/ko--fi-buy%20me%20a%20coffee-ff69b4)](https://ko-fi.com/hamletdufromage)) -->
 
-<p align="center">
-<img src = "https://user-images.githubusercontent.com/18294541/119040795-8880cf80-b9be-11eb-88bd-6dac1d24ebe6.jpg"\><br>
-</p>
 
-A Nintendo Switch homebrew app to download and update Kefir, FWs and cheat codes. Based on [AiO-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) by [HamletDuFromage](https://github.com/HamletDuFromage)
+A Nintendo Switch homebrew app to download and update Tea-NX, FWs and cheat codes. Based on [AiO-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) by [HamletDuFromage](https://github.com/HamletDuFromage)
 
 ## How to install
 Copy the `kefir-updater.nro` directory to `/switch/kefir-updater` on your sdcard.
 
 ## Description of the features
-### ⬦ Update Kefir
-- Download the [Kefir](https://github.com/rashevskyv/kefir). After downloading the CFW archive, the program will extract it and launch [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer/releases/) for installing CFW in a proper way
+### ⬦ Update Tea-NX
+- Download the [Tea-NX](https://github.com/Pugemon/Tea-NX). After downloading the CFW archive, the program will extract it and launch [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer/releases/) for installing CFW in a proper way
 
 ### ⬦ Download firmwares
 - Download firmare files to `/firmware` that can then be installed using DayBreak.
