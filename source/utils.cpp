@@ -184,14 +184,14 @@ namespace util {
                 break;
             }
             case contentType::ams_cfw: {
-                if (std::filesystem::exists(KEFIR_DIRECTORY_PATH)) std::filesystem::remove_all(KEFIR_DIRECTORY_PATH);
-                std::filesystem::create_directory(KEFIR_DIRECTORY_PATH);
-                extract::extract(CFW_FILENAME, KEFIR_DIRECTORY_PATH, 1);
+                if (std::filesystem::exists(TEA_DIRECTORY_PATH)) std::filesystem::remove_all(TEA_DIRECTORY_PATH);
+                std::filesystem::create_directory(TEA_DIRECTORY_PATH);
+                extract::extract(CFW_FILENAME, TEA_DIRECTORY_PATH, 1);
 
-                if (std::filesystem::exists("/kefir/bootloader/hekate_ipl.ini")) {
-                    fs::copyFile("/kefir/bootloader/hekate_ipl.ini", "/bootloader/hekate_ipl.ini");
-                    fs::copyFile("/kefir/config/kefir-updater/kefir_updater.ini", "/bootloader/ini/!kefir_updater.ini");
-                    fs::copyFile("/kefir/bootloader/res/ku.bmp", "/bootloader/res/ku.bmp");
+                if (std::filesystem::exists("/tea/bootloader/hekate_ipl.ini")) {
+                    fs::copyFile("/tea/bootloader/hekate_ipl.ini", "/bootloader/hekate_ipl.ini");
+                    fs::copyFile("/tea/config/tea-updater/tea_updater.ini", "/bootloader/ini/!tea_updater.ini");
+                    fs::copyFile("/tea/bootloader/res/tu.bmp", "/bootloader/res/tu.bmp");
                     if (std::filesystem::exists(CFW_FILENAME)) std::filesystem::remove_all(CFW_FILENAME);
                 }
                 break;
