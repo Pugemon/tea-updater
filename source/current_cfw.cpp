@@ -61,10 +61,10 @@ namespace CurrentCfw {
     {
         u64 version;
         std::string res;
-        std::string kefir_version = fs::readLine("/switch/kefir-updater/version");
+        std::string tea_version = fs::readLine("/switch/tea-updater/version");
 
         if (R_SUCCEEDED(splGetConfig((SplConfigItem)65000, &version))) {
-            res += kefir_version + ";\n\ue016 Atmosphere: " + 
+            res += tea_version + ";\n\ue016 Atmosphere: " + 
                     std::to_string((version >> 56) & ((1 << 8) - 1)) + "." +
                     std::to_string((version >> 48) & ((1 << 8) - 1)) + "." +
                     std::to_string((version >> 40) & ((1 << 8) - 1));
