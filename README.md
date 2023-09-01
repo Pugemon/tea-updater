@@ -11,7 +11,7 @@
 A Nintendo Switch homebrew app to download and update Tea-NX, FWs and cheat codes. Based on [AiO-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) by [HamletDuFromage](https://github.com/HamletDuFromage)
 
 ## How to install
-Copy the `kefir-updater.nro` directory to `/switch/kefir-updater` on your sdcard.
+Copy the `tea-updater.nro` directory to `/switch/tea-updater` on your sdcard.
 
 ## Description of the features
 ### ⬦ Update Tea-NX
