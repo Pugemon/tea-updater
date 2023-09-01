@@ -1,7 +1,7 @@
 {
   "about": {
-    "title": "Kefir Updater",
-    "copyright": "Kefir Updater является форком AiO Switch Updater от HamletDuFromage и распространяется по лицензии GPL-3.0",
+    "title": "Tea Updater",
+    "copyright": "Tea Updater является форком AiO Switch Updater от HamletDuFromage и распространяется по лицензии GPL-3.0",
     "disclaimers_title": "Важная информация",
     "disclaimers": "\ue016  HamletDuFromage ничего не распространяет. Файлы с читами, что лежат в репозитории, просто зеркалятся с темы на gbatemp. Все авторские права принадлежат их владельцам.\n\ue016  Ссылки обновляются каждые полчаса. Если спустя полчаса ссылка так и не открывается, пожалуйста откройте issue на GitHub.\n",
     "donate": "\ue016  Нравится приложение? Вы можете поддержать его автора финансово: 'https://git.io/donate_homlet'"
@@ -33,7 +33,7 @@
     "kb_error": "\nЕсли не отображалась клавиатура, попробуйте запустить приложение с полным доступом к ОЗУ (через игру или форвардер).",
     "cheatslips_see_more": "Показать ещё",
     "cheatslips_dl_cheats": "Скачать читы и вернуться",
-    "bid_not_found": "Не удалось получить идентификатор сборки. Попробуйте запустить Kefir updater с полным доступом к ОЗУ (через игру или форвардер).",
+    "bid_not_found": "Не удалось получить идентификатор сборки. Попробуйте запустить Tea updater с полным доступом к ОЗУ (через игру или форвардер).",
     "exclude_titles": "Список установленных игр",
     "exclude_titles_desc": "Вы можете отключить обновление читов для игр из списка ниже ('On' - обновлять читы, 'Off' - не обновлять)",
     "exclude_titles_save": "Сохранить изменения и вернуться",
@@ -41,7 +41,7 @@
     "gbatemp_dl": "Скачать выбранные читы с сайта GBAtemp. Скачанные читы будут добавлены к существующему чит-файлу.",
     "gbatemp_dl_cheatcode": "Скачать читы",
     "gbatemp_dl_successful_dl": "Выбранный читкод скачан успешно:\n{}",
-    "applet_mode_not_supported": "Из-за ограничений памяти в режиме апплета вы можете получать чит-коды только для игры, в которую вы сейчас играете. Пожалуйста, запустите Kefir-updater в режиме тайтла (через игру или форвардер), чтобы загрузить чит-коды для любой установленной игры.",
+    "applet_mode_not_supported": "Из-за ограничений памяти в режиме апплета вы можете получать чит-коды только для игры, в которую вы сейчас играете. Пожалуйста, запустите Tea-updater в режиме тайтла (через игру или форвардер), чтобы загрузить чит-коды для любой установленной игры.",
     "cheatfile_label": "Список читов в файле {}",
     "not_found": "Не найдено подходящих этой игре читов",
     "show_existing": "Показать имеющиеся",
@@ -54,7 +54,7 @@
     "cheatslips_logout": "Выйти"
 
   },
-  "kefir":{
+  "Tea":{
     "all_done": "Всё готово!\nИзменения вступят в силу после перезагрузки консоли"
   },
   "common": {
@@ -125,21 +125,21 @@
     "not_found": "not found",
     "latest_cheats": "Latest version",
     "app": "app",
-    "kefir": "Текущая версия Kefir: ",
-    "ams": "Kefir",
-    "kefir_text": "\ue016  Загрузить и обновить Kefir до последней версии. Kefir - это Atmosph\u00e8re последней версии и программы, которые оттестированы и настроены для работы с ней.\n\ue016  После загрузки и распаковки свежей версии Kefir, приставка будет перезагружена в специальный пейлоад, который уже и выполнит обновление кефира.\n\nПожалуйста не прерывайте работу Kefir Updater и пейлоада во избежание проблем!",
-    "cfw_text": "\ue016  Обновить Kefir до последней версии",
+    "Tea": "Текущая версия Tea: ",
+    "ams": "Tea",
+    "Tea_text": "\ue016  Загрузить и обновить Tea до последней версии. Tea - это Atmosph\u00e8re последней версии и программы, которые оттестированы и настроены для работы с ней.\n\ue016  После загрузки и распаковки свежей версии Tea, приставка будет перезагружена в специальный пейлоад, который уже и выполнит обновление кефира.\n\nПожалуйста не прерывайте работу Tea Updater и пейлоада во избежание проблем!",
+    "cfw_text": "\ue016  Обновить Tea до последней версии",
     "cheats": "читов",
     "links_not_found": "Could not find a download link, make sure the Switch has access to the internet.\nIf this problem persists, please open an issue on Github.",
     "new_update": " - доступна новая версия апдейтера",
     "about": "О программе",
-    "update_ams": "Обновить Kefir",
-    "update_cfw": "Обновить Kefir",
+    "update_ams": "Обновить Tea",
+    "update_cfw": "Обновить Tea",
     "update_sigpatches": "Update sigpatches",
     "download_firmware": "Скачать прошивку",
     "download_cheats": "Скачать читы",
     "tools": "Инструменты",
-    "launch_warning": "Перед тем как пользоваться программой прочтите следующие замечания::\n\n\ue016  Перед использованием программы ознакомьтесь со способами обновления Kefir вручную. Это поможет вам лучше понимать что делать, если что-то пойдёт не так.\n\ue016  Не рекомендуется использовать карты в формате exFAT на Nintendo Switch! Используйте FAT32, если не хотите потерять ваши данные!\n\ue016  Внимательно прочитайте замечания к релизу Kefir на его официальной странице: kefir.customfw.xyz\n\nЭто сообщение не будет показано при следующих запусках программы.",
+    "launch_warning": "Перед тем как пользоваться программой прочтите следующие замечания::\n\n\ue016  Перед использованием программы ознакомьтесь со способами обновления Tea вручную. Это поможет вам лучше понимать что делать, если что-то пойдёт не так.\n\ue016  Не рекомендуется использовать карты в формате exFAT на Nintendo Switch! Используйте FAT32, если не хотите потерять ваши данные!\n\ue016  Внимательно прочитайте замечания к релизу Tea на его официальной странице: Tea.customfw.xyz\n\nЭто сообщение не будет показано при следующих запусках программы.",
     "footer_text" : "v{} | {:.1f} Гб свободно"
   },
   "hide": {
@@ -172,7 +172,7 @@
     "fw_warning": "Размер архива слишком большой. Запустите программу в режиме тайтла - для этого запустите любую игру, удерживая кнопку (R) до появления Homebrew Menu",
     "overwrite": " Do you want to overwrite existing ",
     "wrong_type_sigpatches": "The downloaded file is not a sigpatches archive. This is most likely due to a broken link. If the problem persists after more than 30 minutes, please open an issue on Github.",
-    "wrong_type_fw": "Загружаемый файл - не архив с прошивкой. Возможно, ссылка по которой должен быть архив с прошивкой, битая. Попробуйте еще через пол часа. Если проблема повторилась, напишите в группу в telegram: https://t.me/kefir_switch/29305",
+    "wrong_type_fw": "Загружаемый файл - не архив с прошивкой. Возможно, ссылка по которой должен быть архив с прошивкой, битая. Попробуйте еще через пол часа. Если проблема повторилась, напишите в группу в telegram: https://t.me/Tea_switch/29305",
     "overwrite_inis": "Do you want to overwrite existing .ini config files?",
     "wrong_type_cfw": "The downloaded file is not a CFW archive. This is most likely due to a broken link. If the problem persists after more than 30 minutes, please open an issue on Github."
   },
@@ -181,8 +181,8 @@
     "install_hekate": "Do you want to also download Hekate?\nIf not, the Switch will now reboot to a special payload in order to finalise the install.",
     "delete_contents": "Would you like to remove the existing '/atmosphere/contents/' directory? This will prevent crashes if you have sysmodules that do not support the latest Atmosph\u00e8re. Please note that it will delete all your existing sysmodules, mods and cheats.",
     "delete_sysmodules_flags": "Would you like to delete all the custom sysmodules startup flags? This will turn off all your sysmodules and prevent crashes if you have sysmodules that do not support the latest Atmosphère.",
-    "current_kefir": "Текущая версия: \n\ue016 Kefir: ",
-    "getting_ams": "Обновление Kefir",
+    "current_Tea": "Текущая версия: \n\ue016 Tea: ",
+    "getting_ams": "Обновление Tea",
     "current_ams": "\u25c6 Текущая версия Atmosphère:",
     "erista_rev": "\u25c6 Ревизия: Erista",
     "mariko_rev": "\u25c6 Ревизия: Mariko"
