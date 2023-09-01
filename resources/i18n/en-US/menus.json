@@ -124,7 +124,7 @@
     "cfw": "CFW",
     "ams": "Tea",
     "ams_text": "\u25c6 From this menu, you can download and update the Tea custom firmware necessary to run homebrew software.",
-    "Tea_text": "\u25c6 From this menu, you can download and update the Tea custom firmware necessary to run homebrew software.",
+    "tea_text": "\u25c6 From this menu, you can download and update the Tea custom firmware necessary to run homebrew software.",
     "cfw_text": "\u25c6 Alternative CFWs, bootloaders.",
     "bootloaders_text": "\u25c6 Download and update bootloaders.",
     "cheats": "cheats",
