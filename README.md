@@ -1,4 +1,4 @@
-# Kefir-updater
+# Tea-updater
 
 <a href="https://liberapay.com/HamletDuFromage/donate"><img alt="Donate using Liberapay to switch-aio-updater's author HamletDuFromage" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 [![btc](https://img.shields.io/badge/BTC-1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79-yellow?logo=bitcoin)](https://github.com/HamletDuFromage/aio-switch-updater#like-the-app)
