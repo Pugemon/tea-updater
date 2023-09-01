@@ -21,7 +21,7 @@ RESOURCES	:=	resources
 DATA		:=	data
 INCLUDES	:=	include /lib/borealis/library/include/borealis/extern/nlohmann
 APP_TITLE	:=	Tea Updater
-APP_AUTHOR	:=	HamletDuFromage, forked by xHR
+APP_AUTHOR	:=	HamletDuFromage, forked by Pugemon
 APP_VERSION :=  2.22.2-ku
 TARGET		:=	$(notdir $(CURDIR))
 
